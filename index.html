@@ -9,28 +9,37 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="stylesheet" href="libs/mdl/icon.css">
     <link rel="stylesheet" href="libs/mdl/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="libs/wow/animate.min.css">
     <script src="libs/jquery/jquery-3.4.1.min.js"></script>
+    <script src="libs/wow/wow.min.js"></script>
     <script src='main.js'></script>
 </head>
 <body>
     <nav>
-        <div id="logo-container"></div> 
+        <div id="logo-container">
+            LOGO
+        </div> 
         <div id="menu-container">
             <ul id="menu">
                 <li>
+                    <a href="#">Наши магазины</a>
+                </li>
+                <li>
                     <a href="#">Товары</a>
                     <ul class="submenu">
-                        <li><a href="#">Submenu 1</a></li>
-                        <li><a href="#">Submenu 2</a></li>
-                        <li><a href="#">Submenu 3</a></li>
-                        <li><a href="#">Submenu 4</a></li>
-                        <li><a href="#">Submenu 5</a></li>
+                        <li><a href="#">Топы и рубашки</a></li>
+                        <li><a href="#">Твитера и жилетки</a></li>
+                        <li><a href="#">Платья</a></li>
+                        <li><a href="#">Куртки и пальто</a></li>
+                        <li><a href="#">Аксессуары</a></li>
+                        <li><a href="#">Обувь</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
         <div id="info-container">
             <div id="user-container">
+                <span id='user-name'>Jeka Golovko</span>
                     <i class="material-icons">account_circle</i>
             </div>
             <div id="find-container">
@@ -38,8 +47,46 @@
             </div>
             <div id="basket-container">
                     <i class="material-icons">shopping_basket</i>
+                    <div id="basket-indicator">1</div>
             </div>
         </div>
     </nav>
+    <main>
+        <section id="video-container">
+            <video src="img/video/intro.mp4" autoplay loop muted>
+        </section>
+        <section class="mini-intro" id="new-items">
+            <div class="label">
+                <span>Новинки</span>
+            </div>
+            <div class="img-container"> 
+                <img src="img/intro_img/1.jpg" class="left-img wow fadeInLeft">
+                <img src="img/intro_img/2.jpg" class="center-img wow fadeIn">
+                <img src="img/intro_img/3.jpg" class="right-img wow fadeInRight">
+            </div>
+        </section>
+        <section class="mini-intro" id="shops">
+            <div class="label">
+                <span>Наши магазины</span>
+            </div>
+            <div class="img-container"> 
+                <img src="img/intro_img/4.jpg" class="left-img wow fadeInLeft">
+                <img src="img/intro_img/5.jpg" class="center-img wow fadeInRight">
+            </div>
+        </section>
+    </main>
+    <footer>
+        Some information
+    </footer>
+    <script>
+        wow = new WOW({
+            boxClass:     'wow',
+            animateClass: 'animated',
+            offset:       100,
+            mobile:       true,
+            live:         true,
+        });
+        wow.init();
+    </script>
 </body>
 </html>
