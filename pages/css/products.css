@@ -1,0 +1,67 @@
+* {padding: 0; margin: 0;}
+body {
+    background: rgb(236, 236, 236);
+}
+
+#preheader {
+    background-color: red;
+    width: 100%;
+    height: 10vh;
+}
+
+#filter-line {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+#filter-button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#filter-button:hover {
+    transition: 0.5s ease;
+    background-color: rgb(230, 230, 230);
+}
+
+#filter-button > i {
+    font-size: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+#left-menu {
+    position: fixed;
+    left: -55vw;
+    top: 0;
+    width: 50vw;
+    height: 100%;
+    z-index: 6;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+#overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    display: none;
+}

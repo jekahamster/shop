@@ -10,47 +10,16 @@
     <link rel="stylesheet" href="libs/mdl/icon.css">
     <link rel="stylesheet" href="libs/mdl/material.indigo-pink.min.css">
     <link rel="stylesheet" href="libs/wow/animate.min.css">
+    <link rel="stylesheet" href="libs/header/header.css">
+
     <script src="libs/jquery/jquery-3.4.1.min.js"></script>
     <script src="libs/wow/wow.min.js"></script>
     <script src='main.js'></script>
 </head>
 <body>
-    <nav>
-        <div id="logo-container">
-            LOGO
-        </div> 
-        <div id="menu-container">
-            <ul id="menu">
-                <li>
-                    <a href="#">Наши магазины</a>
-                </li>
-                <li>
-                    <a href="#">Товары</a>
-                    <ul class="submenu">
-                        <li><a href="#">Топы и рубашки</a></li>
-                        <li><a href="#">Твитера и жилетки</a></li>
-                        <li><a href="#">Платья</a></li>
-                        <li><a href="#">Куртки и пальто</a></li>
-                        <li><a href="#">Аксессуары</a></li>
-                        <li><a href="#">Обувь</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div id="info-container">
-            <div id="user-container">
-                <span id='user-name'>Jeka Golovko</span>
-                    <i class="material-icons">account_circle</i>
-            </div>
-            <div id="find-container">
-                    <i class="material-icons">search</i>
-            </div>
-            <div id="basket-container">
-                    <i class="material-icons">shopping_basket</i>
-                    <div id="basket-indicator">1</div>
-            </div>
-        </div>
-    </nav>
+    <?php
+        include("libs/header/header.php");
+    ?>
     <main>
         <section id="video-container">
             <video src="img/video/intro.mp4" autoplay loop muted>
