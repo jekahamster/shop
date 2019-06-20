@@ -16,8 +16,9 @@ body {
 }
 
 #filter-button {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +31,22 @@ body {
 }
 
 #filter-button > i {
-    font-size: 3em;
+    font-size: 2em;
+}
+
+#cards-container {
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: red;
+    width: 30vh;
+    height: calc(30vh * 1.5);
 }
 
 

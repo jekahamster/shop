@@ -27,9 +27,15 @@
                 <i class="material-icons">filter_list</i>
             </div>
         </div>
-        
+
+        <div id="cards-container">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>    
     </main>
-    
     
     <div id="left-menu"></div>
     <div id="overlay"></div>
