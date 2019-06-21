@@ -1,0 +1,3 @@
+<footer>
+    Some information
+</footer>

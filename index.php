@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="libs/mdl/material.indigo-pink.min.css">
     <link rel="stylesheet" href="libs/wow/animate.min.css">
     <link rel="stylesheet" href="libs/header/header.css">
+    <link rel="stylesheet" href="libs/footer/footer.css">
 
     <script src="libs/jquery/jquery-3.4.1.min.js"></script>
     <script src="libs/wow/wow.min.js"></script>
@@ -44,9 +45,7 @@
             </div>
         </section>
     </main>
-    <footer>
-        Some information
-    </footer>
+    <?php include("libs/footer/footer.php"); ?>
     <script>
         wow = new WOW({
             boxClass:     'wow',

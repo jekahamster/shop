@@ -5,7 +5,7 @@ body {
 }
 
 #preheader {
-    background-color: red;
+    background-color: rgb(202, 202, 202);
     width: 100%;
     height: 10vh;
 }
@@ -57,6 +57,7 @@ body {
 
 .card:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 
@@ -72,6 +73,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
+    color: rgb(90, 90, 90);
 }
 
 .info-container {
@@ -138,13 +141,40 @@ body {
 #left-menu {
     position: fixed;
     left: -55vw;
+    /* left: 0vw; */
     top: 0;
-    width: 50vw;
+    width: 40vw;
     height: 100%;
     z-index: 6;
     background: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    
+}
+
+#left-menu >span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#left-menu > span {
+    font-size: 2.5em;
+    padding: 20px 0 50px 0;
+}
+
+.sort-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sort-name {
+    width: 100%;
+}
+
+.sort-categories {
+    list-style: none;
 }
 
 #overlay {
