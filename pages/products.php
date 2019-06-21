@@ -14,6 +14,7 @@
     <link rel='stylesheet' href="css/products.css">
 
     <script src="../libs/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../libs/jquery/jquery.cookie.min.js"></script>
     <script src="../libs/wow/wow.min.js"></script>
     <script src="script/products.js"></script>
 </head>

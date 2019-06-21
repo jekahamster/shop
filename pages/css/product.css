@@ -22,7 +22,7 @@ main > div:nth-child(1) {
 main > div:nth-child(2) {
     width: 30vw;
     height: calc(30vw * 1.7);
-    background-color: red;
+    background-color: gray;
     display: flex;
 }
 
@@ -31,7 +31,7 @@ main > div:nth-child(2) > img {width: 100%; height: 100%;}
 main > div:nth-child(3) {
     width: 50vw;
     height: auto;
-    background-color: green;
+    background-color: rgb(250, 250, 250);
 }
 
 .mini-img {
@@ -49,3 +49,163 @@ main > div:nth-child(3) {
     /* filter: opacity(0.95); */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+#info-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#info-block > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-block > span {
+    font-weight: bold;
+}
+
+#product-name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#product-bran,
+#product-category,
+#product-season {
+    width: 30% !important;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#info-block > hr {
+    width: 100%;
+    border-color: rgb(197, 197, 197);
+}
+
+#size {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    overflow: auto;
+}
+
+.size-block {
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    margin: 5px;
+    transition: 0.1s ease;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.size-block:hover {
+    background-color: rgb(248, 250, 152);
+}
+
+#colour {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    overflow: auto;
+    transition: 0.2s ease;
+}
+
+.colour-block {
+    border-radius: 100%;
+    cursor: pointer;
+    user-select: none;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(128, 128, 128);
+}
+
+#colour-block:hover {
+    border-color: black;
+}
+
+#volume {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    overflow: auto;
+}
+
+.volume-block {
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    margin: 5px;
+}
+
+.volume-block:hover {
+    background-color: rgb(248, 250, 152);
+}
+
+#price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+
+#select {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px 40px;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+#select:hover {
+    background: rgba(0, 0, 0, 0);
+    color: black;
+}
+
+#select:active {
+    transition: 0.1s ease;
+    background: black;
+    color: white;
+}
+
+
+
+
+
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.coral {
+    background-color: coral;
+}
+.greenyellow {
+    background-color: greenyellow;
+}
+.mistyrose {
+    background-color: mistyrose;
+}
+

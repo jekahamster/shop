@@ -4,7 +4,7 @@
 
 <nav>
     <div id="logo-container">
-        LOGO
+        <a href="/">LOGO</a>
     </div> 
     <div id="menu-container">
         <ul id="menu">
