@@ -29,11 +29,24 @@
         </div>
 
         <div id="cards-container">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+            <div class="card">
+                <div class="image-container">
+                    <img src="../img/intro_img/1.jpg">
+                </div>
+                <div class="name-container">
+                    <span class="name-block">Product name</span>
+                </div>
+                <div class="info-container">
+                    <div class="price-block">$99.99</div>
+                    <div class="colours-block">
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="green"></div>
+                        <div class="yellow"></div>
+                        <div class="aqua"></div>
+                    </div>
+                </div>
+            </div>
         </div>    
     </main>
     
