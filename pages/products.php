@@ -19,8 +19,7 @@
     <script src="script/products.js"></script>
 </head>
 <body>
-    <?php include("../libs/header/header.php"); ?>
-    <div id="preheader"></div>
+    <?php include("../libs/header/header.php"); getHeader("../")?>
     
     <main>
         <div id="filter-line">
@@ -54,13 +53,77 @@
         <span>Сортировка</span>
         <div class="sort-block">
             <ul>
-                <span class="sort-name">1</span>
-                <li class="sort-categories">
-                    <label class='material-checkbox'>
-                        <input type='checkbox'>
-                        <span></span>
-                        2
-                    </label>
+                <li>
+                    <ul>
+                        <span class="sort-name">Бренд</span>
+                        <li class="sort-category">
+                            <label class='material-checkbox'>
+                                <input type='checkbox'>
+                                <span></span>
+                                Sort Category
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <span class="sort-name">Категория</span>
+                        <li class="sort-category">
+                            <label class='material-checkbox'>
+                                <input type='checkbox'>
+                                <span></span>
+                                Sort Category
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <span class="sort-name">Год</span>
+                        <li class="sort-category">
+                            <label class='material-checkbox'>
+                                <input type='checkbox'>
+                                <span></span>
+                                Sort Category
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <span class="sort-name">Сезон</span>
+                        <li class="sort-category">
+                            <label class='material-checkbox'>
+                                <input type='checkbox'>
+                                <span></span>
+                                Sort Category
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <span class="sort-name">Размер</span>
+                        <li class="sort-category">
+                            <label class='material-checkbox'>
+                                <input type='checkbox'>
+                                <span></span>
+                                Sort Category
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <span class="sort-name">Цена</span>
+                        <li class="sort-category">
+                            <label class='material-checkbox'>
+                                <input type='checkbox'>
+                                <span></span>
+                                Sort Category
+                            </label>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>

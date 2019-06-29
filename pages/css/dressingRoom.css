@@ -1,0 +1,32 @@
+main {
+    width: 100%;
+    height: 90vh;
+}
+
+#main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#card {
+    height: calc(50vh * 1.4);
+    width: 45vh;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.info > a > i {
+    font-size: 2.5em;
+}

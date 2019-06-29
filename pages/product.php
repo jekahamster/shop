@@ -15,8 +15,7 @@
     <script src="script/product.js"></script>
 </head>
 <body>
-    <?php include("../libs/header/header.php"); ?>
-    <div id="preheader"></div>
+    <?php include("../libs/header/header.php"); getHeader("../"); ?>
     <main>
         <div id="image-map">
             <div class="mini-img"><img src="../img/intro_img/1.jpg"></div>

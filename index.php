@@ -21,12 +21,13 @@
 <body>
     <?php
         include("libs/header/header.php");
+        getHeader("");
     ?>
     <main>
-        <section id="video-container">
+        <div id="video-container">
             <video src="img/video/intro.mp4" autoplay loop muted>
-        </section>
-        <section class="mini-intro" id="new-items">
+        </div>
+        <div class="mini-intro" id="new-items">
             <div class="label">
                 <span>Новинки</span>
             </div>
@@ -35,8 +36,8 @@
                 <img src="img/intro_img/2.jpg" class="center-img wow fadeIn">
                 <img src="img/intro_img/3.jpg" class="right-img wow fadeInRight">
             </div>
-        </section>
-        <section class="mini-intro" id="shops">
+        </div>
+        <div class="mini-intro" id="shops">
             <div class="label">
                 <span>Наши магазины</span>
             </div>
@@ -44,7 +45,7 @@
                 <img src="img/intro_img/4.jpg" class="left-img wow fadeInLeft">
                 <img src="img/intro_img/5.jpg" class="center-img wow fadeInRight">
             </div>
-        </section>
+        </div>
     </main>
     <?php include("libs/footer/footer.php"); ?>
     <script>

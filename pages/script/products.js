@@ -12,4 +12,8 @@ $(() => {
         }, 400);
         $("#overlay").fadeOut(500);
     });
+
+    $(".card").on("click", function () {
+        window.location.href = "product.php";
+    });
 });
