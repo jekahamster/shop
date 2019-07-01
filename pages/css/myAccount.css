@@ -1,0 +1,201 @@
+main {
+    min-height: 90vh;
+    width: 100%;  
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#person-card {
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    /* height: calc(60vh * 1.4); */
+    width: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+}
+
+#person-card > * {
+    margin: 20px 0;
+}
+
+#avatar-block {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+#avatar-block > img {
+    height: 100%;
+    width: 100%;
+}
+
+#add-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    transition: .2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#avatar-block:hover #add-layer {
+    opacity: 1;
+}
+
+
+#person-card > input {
+    width: 90%;
+    outline: none;
+    border: none;
+    margin-bottom: 50px;
+    padding: 15px 10px 10px 10px;
+    font-size: 1.5em;
+    border-bottom: 2px solid white;
+}
+
+#person-card > input:focus {
+    transition: .6s ease;
+    border-bottom: 2px solid black;
+}
+
+.new-button {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px 40px;
+    background: white;
+    border: 1px solid black;
+    color: black;
+    outline: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.new-button:hover {
+    background: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.new-button:active {
+    transition: 0.1s ease;
+    background: white;
+    color: black;
+}
+
+
+
+#select {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px 40px;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    outline: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#select:hover {
+    background: rgba(0, 0, 0, 0);
+    color: black;
+}
+
+#select:active {
+    transition: 0.1s ease;
+    background: black;
+    color: white;
+}
+
+#change-login {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    background-color: rgb(250, 250, 250);
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper > * {
+    margin-bottom: 40px;
+}
+
+#change-pass {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+
+._input {
+    width: 90%;
+    outline: none;
+    border: none;
+    padding: 15px 10px 10px 10px;
+    font-size: 1.5em;
+    border-bottom: 2px solid white;
+}
+
+._input:focus {
+    transition: .6s ease;
+    border-bottom: 2px solid black;
+}
+
+._button {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px 40px;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    outline: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+._button:hover {
+    background: rgba(0, 0, 0, 0);
+    color: black;
+}
+
+._button:active {
+    transition: 0.1s ease;
+    background: black;
+    color: white;
+}

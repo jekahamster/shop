@@ -1,0 +1,80 @@
+main {
+    height: 90vh;
+    width: 100%;  
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#register-block {
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    height: calc(50vh * 1.4);
+    width: 45vh;
+    display: grid;
+    grid-template-rows: 10% 85% 5%;
+}
+
+#mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#register-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#register-fields > input {
+    width: 90%;
+    outline: none;
+    border: none;
+    margin-bottom: 5%;
+    padding: 15px 10px 10px 10px;
+    font-size: 1.5em;
+    border-bottom: 2px solid white;
+}
+
+#register-fields > input:focus {
+    transition: .6s ease;
+    border-bottom: 2px solid black;
+}
+
+#select {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px 20px;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    outline: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#select:hover {
+    background: rgba(0, 0, 0, 0);
+    color: black;
+}
+
+#select:active {
+    transition: 0.1s ease;
+    background: black;
+    color: white;
+}
+
+#other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

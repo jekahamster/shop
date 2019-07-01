@@ -20,7 +20,7 @@ function getHeader($prefix) {
     </div>
     <div id='info-container'>
         <div id='user-container'>
-            <span id='user-name'>Jeka Golovko</span>
+            <span id='user-name'>Allen Birfer</span>
             <i class='material-icons'>account_circle</i>
         </div>
         <div id='find-container'>
